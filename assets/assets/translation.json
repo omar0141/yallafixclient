@@ -28,7 +28,6 @@
     "add": "Add",
     "add-item": "Add Item",
     "edit": "Edit",
-    "cancel": "Cancel",
     "item_no": "Product Id",
     "name_ar": "Product Name (Arabic)",
     "name_en": "Product Name (English)",
@@ -455,7 +454,8 @@
     "top_up": "Top Up",
     "send": "Send",
     "receive": "Receive",
-    "history": "History"
+    "history": "History",
+    "your_notifications": "Your Notifications"
   },
   "ar": {
     "language_iso": "ar",
@@ -486,7 +486,6 @@
     "add": "إضافة",
     "add-item": "إضافة صنف",
     "edit": "تعديل",
-    "cancel": "إلغاء",
     "item_no": "كود الصنف",
     "name_ar": "إسم (عربى)",
     "name_en": "إسم (انجليزي)",
@@ -922,6 +921,7 @@
     "top_up": "شحن",
     "send": "إرسال",
     "receive": "استقبال",
-    "history": "السجل"
+    "history": "السجل",
+    "your_notifications": "إشعاراتك"
   }
 }
