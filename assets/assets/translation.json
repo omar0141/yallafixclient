@@ -396,6 +396,8 @@
     "in_transit": "In Transit",
     "overview": "Overview",
     "rejected": "Rejected",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
     "new_job_requests": "New job requests",
     "your_service_orders": "Your service orders",
     "urgent": "Urgent",
@@ -529,7 +531,9 @@
     "on_way": "On Way",
     "maintenance": "Maintenance",
     "fixed": "Fixed",
-    "done": "Done"
+    "done": "Done",
+    "tracking_partner": "Tracking Partner",
+    "waiting_partner_location": "Waiting for partner location…"
   },
   "ar": {
     "language_iso": "ar",
@@ -937,6 +941,8 @@
     "in_transit": "في الطريق",
     "overview": "نظرة عامة",
     "rejected": "مرفوض",
+    "delivered": "تم التسليم",
+    "cancelled": "ملغى",
     "new_job_requests": "طلبات جديدة",
     "your_service_orders": "طلبات الخدمة الخاصة بك",
     "urgent": "عاجل",
@@ -1069,6 +1075,8 @@
     "on_way": "في الطريق",
     "maintenance": "الصيانة",
     "fixed": "تم الإصلاح",
-    "done": "تم"
+    "done": "تم",
+    "tracking_partner": "تتبع الشريك",
+    "waiting_partner_location": "في انتظار موقع الشريك…"
   }
 }
