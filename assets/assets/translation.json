@@ -523,6 +523,9 @@
     "part_number": "Part Number",
     "hello-client": "Hello, @name!",
     "make_request": "Make New Request",
+    "view_details": "View Details",
+    "active_order": "Active Order",
+    "show_order_details": "Show Order Details",
     "order_tracking": "Order Tracking",
     "your_location": "Your Location",
     "edit_address": "Edit address...",
@@ -533,7 +536,9 @@
     "fixed": "Fixed",
     "done": "Done",
     "tracking_partner": "Tracking Partner",
-    "waiting_partner_location": "Waiting for partner location…"
+    "waiting_partner_location": "Waiting for partner location…",
+    "screen": "Screen",
+    "battery": "Battery"
   },
   "ar": {
     "language_iso": "ar",
@@ -1067,6 +1072,9 @@
     "part_number": "رقم القطعة",
     "hello-client": "مرحباً، @name!",
     "make_request": "تقديم طلب جديد",
+    "view_details": "عرض التفاصيل",
+    "active_order": "الطلب النشط",
+    "show_order_details": "عرض تفاصيل الطلب",
     "order_tracking": "تتبع الطلب",
     "your_location": "موقعك",
     "edit_address": "تعديل العنوان...",
@@ -1077,6 +1085,8 @@
     "fixed": "تم الإصلاح",
     "done": "تم",
     "tracking_partner": "تتبع الفني",
-    "waiting_partner_location": "في انتظار موقع الفني…"
+    "waiting_partner_location": "في انتظار موقع الفني…",
+    "screen": "شاشة",
+    "battery": "بطارية"
   }
 }
