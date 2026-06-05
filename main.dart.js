@@ -39187,19 +39187,18 @@ if(r===15)return new A.o0(a.k1,"on_way_date")
 if(r===10)return new A.o0(a.w,"accepted_date")
 return new A.o0(a.k4,"estimated_arrival")},
 bD6(a,b){if(a===80||a===90)return-1
-if(a===40||a===50)return b?7:6
-if(a===35)return b?5:4
-if(a===30||a===28||a===25)return b?4:3
-if(a===20)return b?3:2
+if(a===40||a===50)return b?7:5
+if(a===35)return b?5:3
+if(a===30||a===28||a===25)return b?4:2
+if(a===20)return b?3:1
 if(a===15)return b?2:1
 if(a===10)return 1
 return 0},
 bD7(a,b){if(!b)switch(a){case-1:return 0
 case 0:return 0.08
 case 1:return 0.25
-case 2:return 0.45
-case 3:return 0.65
-case 4:return 0.82
+case 2:return 0.5
+case 3:return 0.75
 default:return 1}switch(a){case-1:return 0
 case 0:return 0.08
 case 1:return 0.22
@@ -140834,12 +140833,12 @@ A.bdr.prototype={
 $0(){return A.cN(this.a,!1).dU()},
 $S:0}
 A.bds.prototype={
-$0(){var s,r,q,p="accepted",o="partner_arrived",n="repairing",m="delivered",l=this.b,k=A.bD6(this.a.d,l),j=B.d.dv(A.bD7(k,l)*100)
-if(k<0)return A.J("cancelled")
+$0(){var s,r,q,p="accepted",o="repairing",n="delivered",m=this.b,l=A.bD6(this.a.d,m),k=B.d.dv(A.bD7(l,m)*100)
+if(l<0)return A.J("cancelled")
 s=t.s
-r=l?A.a([A.J("placed"),A.J(p),A.J("on_way"),A.J(o),A.J(n),A.J("fixed"),A.J(m)],s):A.a([A.J("placed"),A.J(p),A.J(o),A.J(n),A.J("fixed"),A.J(m)],s)
-q=k<r.length?r[k]:B.b.gan(r)
-return""+j+"%  \xb7  "+q},
+r=m?A.a([A.J("placed"),A.J(p),A.J("on_way"),A.J("partner_arrived"),A.J(o),A.J("fixed"),A.J(n)],s):A.a([A.J("placed"),A.J(p),A.J(o),A.J("fixed"),A.J(n)],s)
+q=l<r.length?r[l]:B.b.gan(r)
+return""+k+"%  \xb7  "+q},
 $S:30}
 A.bdt.prototype={
 $1(a){return a!=null&&a.length!==0},
@@ -140924,7 +140923,7 @@ n=A.bD6(p.d,o)
 m=A.bD7(n,o)
 l=A.a([new A.pO(A.J("placed"),A.J("tl_placed_sub"),B.yf,p.c,!1),new A.pO(A.J("accepted"),A.J("tl_accepted_sub"),B.qY,p.w,!1)],t.Gw)
 if(o)l.push(new A.pO(A.J("on_way"),A.J("tl_on_way_sub"),B.qS,p.k1,!0))
-l.push(new A.pO(A.J("partner_arrived"),A.J("tl_arrived_sub"),B.mf,p.k2,!1))
+if(o)l.push(new A.pO(A.J("partner_arrived"),A.J("tl_arrived_sub"),B.mf,p.k2,!1))
 l.push(new A.pO(A.J("repairing"),A.J("tl_repairing_sub"),B.hV,p.k3,!1))
 l.push(new A.pO(A.J("fixed"),A.J("tl_fixed_sub"),B.jH,p.ok,!1))
 l.push(new A.pO(A.J("delivered"),A.J("tl_delivered_sub"),B.qV,p.p1,!1))
