@@ -558,7 +558,7 @@
     "available_now": "Available Now",
     "tl_placed_sub": "Your request was created successfully",
     "tl_accepted_sub": "Your request was accepted by the technician",
-    "tl_on_way_sub": "The technician is on his way to you",
+    "tl_on_way_sub": "A technician accepted your request",
     "partner_arrived": "Technician Arrived",
     "tl_arrived_sub": "The technician has arrived at your location",
     "repairing": "Repairing",
@@ -576,8 +576,8 @@
     "status_fixed_sub": "Your device is ready for delivery",
     "status_repairing": "Repairing",
     "status_repairing_sub": "The technician is working on your device",
-    "status_on_way": "Your Device is On The Way",
-    "status_on_way_sub": "Will arrive in 2 - 3 hours",
+    "status_on_way": "The maintainer is On The Way",
+    "status_on_way_sub": "The technician is on the way",
     "status_accepted": "Request Accepted",
     "status_accepted_sub": "The technician is on his way",
     "status_searching": "Searching for Technician",
@@ -606,6 +606,8 @@
     "time_pm": "PM",
     "distance_placeholder": "3.2 km",
     "eta_placeholder": "15 - 20 min",
+    "eta_hr": "h",
+    "eta_min": "min",
     "currency": "SYP",
     "product_information": "Product Information",
     "feat_original": "100% Original",
@@ -637,7 +639,9 @@
     "no": "No, Keep It",
     "cancel_order_success": "Your order has been cancelled successfully.",
     "cancel_order_failed": "Failed to cancel the order. Please try again.",
-    "reject_date": "Reject Date"
+    "reject_date": "Reject Date",
+    "max_active_orders_title": "Order Limit Reached",
+    "max_active_orders_message": "You already have 2 active orders. Please complete or wait for your existing orders before creating a new one."
   },
   "ar": {
     "language_iso": "ar",
@@ -1206,7 +1210,7 @@
     "available_now": "متاح الآن",
     "tl_placed_sub": "تم إنشاء طلبك بنجاح",
     "tl_accepted_sub": "تم قبول طلبك من قبل الفني",
-    "tl_on_way_sub": "الفني في طريقه إليك",
+    "tl_on_way_sub": "قبل فني طلبك",
     "partner_arrived": "وصل الفني",
     "tl_arrived_sub": "وصل الفني إلى موقعك",
     "repairing": "جارٍ الإصلاح",
@@ -1224,8 +1228,8 @@
     "status_fixed_sub": "جهازك جاهز للتسليم",
     "status_repairing": "جارٍ الإصلاح",
     "status_repairing_sub": "يعمل الفني على إصلاح جهازك",
-    "status_on_way": "جهازك في الطريق",
-    "status_on_way_sub": "سيصل خلال 2 - 3 ساعات",
+    "status_on_way": "الفني في الطريق",
+    "status_on_way_sub": "الفني في طريقه إليك",
     "status_accepted": "تم قبول طلبك",
     "status_accepted_sub": "الفني في طريقه إليك",
     "status_searching": "جارٍ البحث عن فني",
@@ -1254,6 +1258,8 @@
     "time_pm": "م",
     "distance_placeholder": "3.2 كم",
     "eta_placeholder": "15 - 20 دقيقة",
+    "eta_hr": "س",
+    "eta_min": "د",
     "currency": "ل.س",
     "product_information": "معلومات المنتج",
     "feat_original": "أصلي 100%",
@@ -1285,6 +1291,8 @@
     "no": "لا، تراجع",
     "cancel_order_success": "تم إلغاء طلبك بنجاح.",
     "cancel_order_failed": "فشل إلغاء الطلب. يرجى المحاولة مرة أخرى.",
-    "reject_date": "تاريخ الرفض"
+    "reject_date": "تاريخ الرفض",
+    "max_active_orders_title": "تم الوصول للحد الأقصى",
+    "max_active_orders_message": "لديك بالفعل طلبان نشطان. يرجى إكمال طلباتك الحالية أو انتظار اكتمالها قبل إنشاء طلب جديد."
   }
 }
