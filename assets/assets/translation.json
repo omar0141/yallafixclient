@@ -522,6 +522,7 @@
     "product_id": "Product ID",
     "product_category": "Category",
     "product_brand_name": "Brand Name",
+    "lcd_types": "LCD Types",
     "extra_info": "Extra Info",
     "part_number": "Part Number",
     "hello-client": "Hello, @name!",
@@ -641,7 +642,8 @@
     "cancel_order_failed": "Failed to cancel the order. Please try again.",
     "reject_date": "Reject Date",
     "max_active_orders_title": "Order Limit Reached",
-    "max_active_orders_message": "You already have 2 active orders. Please complete or wait for your existing orders before creating a new one."
+    "max_active_orders_message": "You already have 2 active orders. Please complete or wait for your existing orders before creating a new one.",
+    "rating": "Rating"
   },
   "ar": {
     "language_iso": "ar",
@@ -1174,6 +1176,7 @@
     "product_id": "رقم المنتج",
     "product_category": "الفئة",
     "product_brand_name": "اسم الماركة",
+    "lcd_types": "أنواع الشاشات",
     "extra_info": "معلومات إضافية",
     "part_number": "رقم القطعة",
     "hello-client": "مرحباً، @name!",
@@ -1293,6 +1296,7 @@
     "cancel_order_failed": "فشل إلغاء الطلب. يرجى المحاولة مرة أخرى.",
     "reject_date": "تاريخ الرفض",
     "max_active_orders_title": "تم الوصول للحد الأقصى",
-    "max_active_orders_message": "لديك بالفعل طلبان نشطان. يرجى إكمال طلباتك الحالية أو انتظار اكتمالها قبل إنشاء طلب جديد."
+    "max_active_orders_message": "لديك بالفعل طلبان نشطان. يرجى إكمال طلباتك الحالية أو انتظار اكتمالها قبل إنشاء طلب جديد.",
+    "rating": "التقييم"
   }
 }
